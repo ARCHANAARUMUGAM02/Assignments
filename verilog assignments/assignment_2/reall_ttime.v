@@ -22,8 +22,11 @@
 
 module reall_ttime();
 real delta_1,delta_2;
+  integer int_value_1,int value_2;
 initial begin
 delta_1=4e10;
-delta_2=2.18;
+  int_value_1=delta_1;
+  delta_2=2.18;
+  int_value_2=delta_2;
 end
 endmodule
