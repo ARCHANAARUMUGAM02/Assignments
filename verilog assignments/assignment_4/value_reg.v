@@ -24,6 +24,6 @@ module value_reg( );
 reg [5:0] y;
 initial
 begin
- y= 0*2;
+ y= 'ox2;
 end
 endmodule
